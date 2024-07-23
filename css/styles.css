@@ -1,0 +1,157 @@
+body {
+    font-family:montserrat;
+
+}
+
+#title{
+    background-color:#ff4c68;
+    color:azure;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+
+
+.para1{
+    color:#8f8f8f;
+    text-align:center;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight:900;
+    font-size: 3rem;
+    line-height:1.5;
+}
+h2{
+    font-family: montserrat;
+    font-weight:bold;
+    font-size:3rem;
+    line-height:1.5;
+}
+h3{
+    font-family:montserrat;
+    font-weight:bold;
+    text-align: center;
+    font-size:1.5rem;
+}
+/* navigation bar styling */
+.navbar {
+    padding-bottom:4rem
+}
+
+.navbar-brand{
+    font-family:ubuntu;
+    font-weight:bold;
+    font-size:1.5rem
+}
+.nav-item{
+    padding:0 18px;
+}
+/* download buttons */
+.download-button{
+    margin:10% 0 5% 0;
+}
+/* title image */
+
+.title-image{
+    width:30%;
+    padding-left:20px;
+    transform:rotate(10deg);
+    position: absolute;
+}
+
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+   
+    .title-image{
+        position:static;
+        width:70%;
+        transform:rotate(0);
+    }
+    
+}
+/* features section */
+#features{
+    padding: 7% 5%;
+    background-color: white;
+    position: relative;
+
+}
+.font-awesome{
+    color:#ef8172;
+    margin-left:40%;
+    margin-bottom:1rem;
+    text-align: center;
+    
+  
+}
+.font-awesome:hover {
+   color:#ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    text-align:center;
+    background-color:#ff4c68;
+    color:#ffff;
+}
+.carousel-item{
+     padding:7% 15%;
+}
+.testimonial-image{
+    width:15%;
+    border-radius: 100%;
+}
+/* press section */
+#press{
+    background-color:#ff4c68;
+    /* after giving it same background with 
+    the testimonial section, it then displayed as if they are under the same color background */
+    text-align:center; 
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+
+}
+/* pricing section */
+#pricing {
+    padding:7% 5%;
+
+}
+.pricing-col {
+    padding-top:3%;
+}
+.pricing-para {
+    font-weight:bold;
+    color:#8f8f8f;
+}
+/* call to action section */
+#cta {
+    background-color:#ff4c68;
+    padding:7% 20%;
+    text-align: center;
+}
+.cta-h3 {
+    font-family: montserrat;
+    font-size:35px;
+    color:aliceblue;
+
+}
+.cta-btn {
+  margin:40px 9px;
+   
+}
+/* footer section */
+#footer{
+    text-align: center;
+    padding:30px 30px;
+}
+.footer-awesome {
+    margin:10px 15px;
+}
